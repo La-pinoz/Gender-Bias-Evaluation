@@ -1,0 +1,47 @@
+# Raw dataset downloads: large and re-downloadable from Hugging Face
+data/raw/*
+!data/**/.gitkeep
+
+# Project planning and progress documents (kept local)
+/PLAN.md
+/PROGRESS.md
+/phase-2-plan.md
+/phase-3-plan.md
+/final-fixes-phase-0-and-1.md
+
+# Superseded Kaggle runs of notebook 3a (runs 1 and 2 failed the placebo gate)
+/notebooks/kaggle_ran_notebooks/nbk_phase3a-run1.ipynb
+/notebooks/kaggle_ran_notebooks/nbk_phase3a-run2.ipynb
+
+# Kaggle output folders (Entire_Output_phase-0, -1, -2, -3a, -3b)
+/Entire_Output_phase*/
+
+# Python / Jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.virtual_documents/
+
+# Model weights and archives (Kaggle output zips are empty or duplicates of the folders)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.ckpt
+*.zip
+
+# Secrets and credentials
+.env
+kaggle.json
+
+# Virtual environments
+.venv/
+venv/
+
+# Editor, OS and tool-local files
+.vscode/
+.idea/
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
